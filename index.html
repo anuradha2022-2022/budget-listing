@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Budget Listing</title>
+</head>
+<body>
+    <h1>BUDGET LISTING</h1>
+    <div id="budget">
+      
+    <table class="entry">
+        <thead>
+            <tr>
+                <td><b>Date</b></td>
+                <td><b>Title</b></td>
+                <td><b>Cost</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input id="date-entry" type="date" placeholder="DD/MM/YYYY">
+                </td>
+                <td>
+                    <input id="Title-entry" type="text" placeholder="(e.g Bills,wages,households)">
+                </td>
+                <td>
+                    <input id="cost-entry" type="number" placeholder="Rs.120,Rs.4000">
+                </td>
+            </tr>
+        </tbody>
+        <div id="msg">
+            <pre></pre>
+        </div>
+    </table>
+    
+    <button id="save"  onclick="saving()">Save</button>
+    <button id="clear"  onclick="cleared()">Clear</button>
+    <button id="calculate" onclick="calcu()">Calculate</button>
+    
+</div>
+  
+    <script src="index.js"></script>
+</body>
+</html>

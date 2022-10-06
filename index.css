@@ -1,0 +1,44 @@
+body{
+    margin:auto;
+    width:80vw;
+    height:100px;
+    background-color: rgba(6, 68, 75, 0.611);
+
+}
+h1{
+    margin-top: 22px;
+    text-align: center;
+    color:rgb(14, 14, 14);
+}
+#budget{
+    margin:80px;
+    padding: 90px;
+    background-color: rgba(255, 235, 205, 0.548);
+    
+}
+button{
+    border-radius: 2%;
+    border:1px solid rgba(68, 143, 135, 0.618);
+    width:96px;
+    line-height: 33px;
+    color:rgb(11, 101, 101);
+    margin:15px;
+    padding:4px;
+    text-align: center;
+    
+}
+thead{
+    text-align: center;
+}
+input{
+    width:156px;
+    margin:15px;
+    padding:4px;
+    line-height: 20px;
+    border:2px solid rgba(19, 123, 149, 0.643);
+    border-radius: 2px;
+    line-height:28px;
+    
+}
+
+
